@@ -100,7 +100,7 @@ def end(scr, health):
     scr.reset()   
     scr.clear()
     sleep(1)
-    if health == 3:
+    if health != 0:
         color('#3CB371')
         sleep(1)
         write(arg=f'YOU WIN', align='center', font=('', 50, 'bold'))
