@@ -96,10 +96,10 @@ class Wall(Turtle):
 ''' Game endings '''
 def end(scr, health):
     sleep(1)
+    scr.bgcolor('black')
     scr.reset()   
     scr.clear()
     sleep(1)
-    scr.bgcolor('black')
     if health == 3:
         color('#3CB371')
         sleep(1)
